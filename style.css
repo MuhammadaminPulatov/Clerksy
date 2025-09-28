@@ -1,0 +1,696 @@
+/* Global styles start */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    /*border: 1px solid red;*/
+}
+
+/* Global styles end */
+
+/* Header styles start */
+.header {
+    background-color: #163A24;
+}
+
+.header__wrapper {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header__logo {
+    vertical-align: middle;
+}
+
+.header__nav {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 800px;
+}
+
+.header__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+.header__link {
+    color: #FBFAF7;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    text-align: right;
+}
+
+.btn {
+    padding: 15px 25px;
+    border-radius: 160px;
+    background-color: #198C36;
+    cursor: pointer;
+}
+
+/* Header styles end */
+
+/* Container styles start */
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px 0 0;
+}
+
+/* Container styles end */
+
+/* Hero section start */
+.hero {
+    background-color: #163A24;
+}
+
+.hero__wrapper {
+    align-content: center;
+}
+
+.hero__content {
+    display: inline-block;
+    width: 30%;
+    margin: auto;
+    vertical-align: middle;
+}
+
+.hero__title {
+    font-family: "Domine", serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 65px;
+    color: #FBFAF7;
+    margin-bottom: 20px;
+}
+
+.hero__description {
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FBFAF7;
+}
+
+.hero__image {
+    width: 50%;
+    display: inline-block;
+    margin-left: 245px;
+    vertical-align: middle;
+}
+
+/* Hero section end */
+
+/* Humans , Training section start */
+
+.humans__wrapper, .training__wrapper {
+    padding: 80px 0;
+    align-content: center;
+}
+
+.humans__img, .training__img {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 50px 0;
+    width: 40%;
+}
+
+.humans__info, .training__info {
+    display: inline-block;
+    vertical-align: middle;
+    width: 45%;
+    padding: 0 100px 0;
+    margin-left: 200px;
+}
+
+.humans__title, .training__title {
+    font-family: "Domine", serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    color: #163A24;
+    text-align: start;
+}
+
+.humans__text, .training__text {
+    text-align: start;
+    margin-top: 30px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #163A24;
+}
+
+.humans__info-second, .training__info {
+    margin: 0;
+}
+
+.humans__img-second, .training__img {
+    margin-left: 200px;
+}
+
+/* Humans , Training section end */
+
+/* Partners section start */
+
+.partners {
+
+}
+
+.partners__wrapper {
+    text-align: center;
+    align-content: center;
+    vertical-align: middle;
+    padding: 80px 0;
+}
+
+.partners__title {
+    font-family: "Domine", serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    text-align: center;
+    color: #163A24;
+
+}
+
+.partners__list {
+    margin-top: 70px;
+}
+
+.partners__logo {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 50px;
+}
+
+/* Partners section end */
+
+/* Quality section Start */
+
+.quality {
+    background-color: #163A24;
+    padding: 65px 140px 120px;
+}
+
+.quality__title {
+    font-family: "Domine", serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    text-align: center;
+    color: #FBFAF7;
+
+}
+
+.informs {
+    margin-top: 75px;
+    text-align: center;
+    vertical-align: middle;
+    align-content: center;
+}
+
+.informs__item {
+    vertical-align: middle;
+    display: inline-block;
+    margin: 0 70px;
+    padding-bottom: 20px;
+
+}
+
+.informs__img {
+    margin-bottom: 50px;
+}
+
+.informs__text {
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #FBFAF7;
+}
+
+/* Quality section end */
+
+/* Employees section Start */
+
+.employees {
+    background-color: #F2EFE6;
+}
+
+.employees__wrapper {
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    padding: 120px 130px;
+}
+
+.employees__title {
+    display: inline-block;
+    font-family: "Domine", serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    text-align: center;
+    color: #163A24;
+    width: 900px;
+}
+
+.employees__text {
+    margin: 30px 0;
+    display: inline-block;
+    width: 800px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #163A24;
+}
+
+/* Employees section end */
+
+/* Training section start */
+.training__title {
+    width: 400px;
+}
+
+/* Training section end */
+
+/* Interests section start */
+
+.interests__wrapper {
+    text-align: center;
+    vertical-align: middle;
+    align-content: center;
+    padding: 20px 0;
+}
+
+.interests__title {
+    font-family: "Domine", serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    text-align: center;
+    color: #163A24;
+}
+
+.interests__text {
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #163A24;
+    margin: 20px 15px 40px;
+}
+
+.card {
+    width: 380px;
+    margin: 0 20px;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px 0 #E9E4D5;
+    background-color: #FBFAF7;
+    display: inline-block;
+    text-align: start;
+    vertical-align: top;
+}
+
+.card__title {
+    font-family: "Domine", serif;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 30px;
+    color: #163A24;
+    margin: 25px 0 20px;
+}
+
+.card__list {
+    padding-left: 20px;
+}
+
+.card__item {
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #163A24;
+    margin-bottom: 20px;
+}
+
+/* Interests section end */
+
+/* Steps section end */
+
+.steps {
+    background-color: #F2EFE6;
+}
+
+.steps__wrapper {
+    padding: 120px 0;
+    text-align: center;
+    vertical-align: middle;
+    align-content: center;
+
+}
+
+.steps__title {
+    font-family: "Domine", serif;
+    font-weight: 600;
+    font-size: 47px;
+    line-height: 54px;
+    text-align: center;
+    color: #163A24;
+}
+
+.steps__text {
+    margin: 25px 0;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #163A24;
+}
+
+.steps__list {
+    text-align: center;
+    vertical-align: middle;
+    align-content: center;
+}
+
+.step {
+    display: inline-block;
+    vertical-align: middle;
+    align-content: center;
+    margin: 0 20px 20px;
+}
+
+.step__title {
+    width: 300px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #163A24;
+    margin-bottom: 30px;
+}
+
+.step__value {
+    font-family: "Domine", serif;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+    color: #163A24;
+}
+
+/* Steps section end */
+
+/* Book section start */
+.book {
+    padding: 50px 0;
+}
+
+.book__wrapper {
+    vertical-align: middle;
+    align-content: center;
+
+}
+
+.book__info {
+    display: inline-block;
+    width: 48%;
+    vertical-align: middle;
+}
+
+.book__title {
+    font-family: "Domine", serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    color: #163A24;
+}
+
+.book__text {
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #163A24;
+    margin: 25px 0 19px;
+}
+
+.book__btn {
+    padding: 15px 25px;
+    background-color: #198C36;
+    border: none;
+    color: #FBFAF7;
+    border-radius: 160px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+.book__img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 48%;
+}
+
+/* Book section end */
+
+/* Start section start */
+.start {
+    background-color: #163A24;
+    padding: 120px;
+    background-image: url("./assets/start_left.svg"), url("./assets/start_right.svg");
+    background-repeat: no-repeat;
+    background-position: calc(50% - 800px) 100%, calc(50% + 800px) 100%;
+}
+
+.start__wrapper {
+    text-align: center;
+}
+
+.start__title {
+    font-family: "Domine", serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    text-align: center;
+    color: #FBFAF7;
+}
+
+.start__text {
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #FBFAF7;
+    margin: 26px 0 18px;
+}
+
+.start__btn {
+    border: none;
+    padding: 15px 25px;
+    border-radius: 160px;
+    background-color: #FAB5A0;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    text-align: center;
+    color: #163A24;
+}
+
+/* Start section end */
+
+/* Sign Up section start */
+
+.sign {
+    background-color: #F2EFE6;
+}
+
+.sign__wrapper {
+    text-align: center;
+    vertical-align: middle;
+    padding: 80px 0;
+}
+
+.sign__text {
+    display: inline-block;
+    text-align: start;
+    vertical-align: middle;
+    width: 48%;
+}
+
+.sign__title {
+    font-family: "Domine", serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    color: #163A24;
+}
+
+.sign__desc {
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #163A24;
+    margin-top: 25px;
+}
+
+.sign__form {
+    text-align: start;
+    display: inline-block;
+    vertical-align: middle;
+    width: 48%;
+}
+
+.sign__box {
+    width: 540px;
+    border-radius: 255px;
+    background-color: #FFF;
+    border: 1px solid #F2EFE6;
+    padding-left: 20px;
+
+}
+
+.form__input {
+    display: inline-block;
+    vertical-align: middle;
+    outline: none;
+    border: none;
+    width: 78%;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 16px;
+}
+
+.form__btn {
+    border-radius: 160px;
+    background-color: #15762E;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    display: inline-block;
+    border: none;
+    text-align: center;
+    color: #FBFAF7;
+    vertical-align: middle;
+}
+
+.form__terms {
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #163A24;
+    width: 500px;
+    margin-top: 15px;
+}
+
+.form__link {
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #198C36;
+}
+
+/* Sign Up section end */
+
+/* Footer start */
+
+.footer {
+}
+
+.footer__wrapper {
+    vertical-align: middle;
+    align-content: center;
+}
+
+.medias {
+    padding: 40px 0;
+}
+
+.footer__logo {
+    display: inline-block;
+    vertical-align: middle;
+    width: 9%;
+}
+
+.footer__title {
+    font-family: "Domine", serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: end;
+    color: #163A24;
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.social-icons {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: end;
+    width: 40%;
+}
+
+.social-icon {
+    color: #198C36;
+}
+
+
+.footer__brand {
+    vertical-align: middle;
+    align-content: center;
+    padding: 30px 0;
+}
+
+.footer__copyright {
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    vertical-align: middle;
+    align-content: center;
+    color: #163A24;
+    display: inline-block;
+    width: 49%;
+}
+
+.footer__links {
+    width: 50%;
+    display: inline-block;
+    text-align: end;
+}
+
+.footer__link, a {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: end;
+    list-style: none;
+    margin: 0 0 0 10px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 100%;
+    color: #198C36;
+}
+
+/* Footer end */
