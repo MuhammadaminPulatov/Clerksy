@@ -11,14 +11,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="OptimizeOnSaveOptions">
     <option name="myRunOnSave" value="true" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="33K9tla50TjGAOhAfvmuqnRZQLM" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -30,10 +30,11 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "code.cleanup.on.save": "true",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/PDP School Frontend/css/css-6 Font/Lesson/assets/footer",
+    "last_opened_file_path": "D:/PDP School Frontend/css/css-6 Font/Lesson/assets/steps",
     "node.js.detected.package.stylelint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.stylelint": "",
@@ -46,11 +47,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\PDP School Frontend\css\css-6 Font\Lesson\assets\footer" />
       <recent name="D:\PDP School Frontend\css\css-6 Font\Lesson\assets\steps" />
+      <recent name="D:\PDP School Frontend\css\css-6 Font\Lesson\assets" />
+      <recent name="D:\PDP School Frontend\css\css-6 Font\Lesson\assets\footer" />
       <recent name="D:\PDP School Frontend\css\css-6 Font\Lesson\assets\interests" />
       <recent name="D:\PDP School Frontend\css\css-6 Font\Lesson\assets\training" />
-      <recent name="D:\PDP School Frontend\css\css-6 Font\Lesson\assets\employees" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -70,7 +71,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1758627417182</updated>
-      <workItem from="1759055115444" duration="20701000" />
+      <workItem from="1759055115444" duration="22072000" />
+      <workItem from="1759254680223" duration="94000" />
+      <workItem from="1759310880028" duration="959000" />
     </task>
     <servers />
   </component>
